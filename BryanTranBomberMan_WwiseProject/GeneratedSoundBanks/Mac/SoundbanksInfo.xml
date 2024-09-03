@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="152">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{19F1C898-153C-065F-B1BC-0B0D5BA68B6F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A2A553F5-061B-EA4B-B0D8-5397BDFE2698}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{404675B2-5F21-A744-2171-3F20B5AF1820}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="236616955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover.wav</ShortName>
+					<CachePath>95/{95F0A3AD-7505-A7F3-49B6-167659398642}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1807265342" Name="Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover" DurationType="OneShot" DurationMin="132.63237" DurationMax="132.63237">
+					<MediaRefs>
+						<MediaRef Id="236616955"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EF553E34-D6F3-2EC7-D5FD-B2F937DB40DA}</FileHash>
+</SoundBanksInfo>

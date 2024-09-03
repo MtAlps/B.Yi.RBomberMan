@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AAEE8A93-4AE1-460A-804B-1E90E5B249B1}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{AAEE8A93-4AE1-460A-804B-1E90E5B249B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover" ID="{186BAB16-BE47-4222-868A-A5C2298268FA}" ShortID="348932663">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="132632.380952381"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD662204-6067-499E-9F55-11452A4B7775}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B06CCA25-646D-4D20-876D-EFD9AC08DC59}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover" ID="{30B2ECBE-98EA-4D73-8830-9F4628A0BE32}" ShortID="924584376">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B06CCA25-646D-4D20-876D-EFD9AC08DC59}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{037B31F4-40A3-4153-A42A-921D0464B587}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover" ID="{347657E6-A290-4B2C-A16E-DAD284ED1D16}">
+									<Language>SFX</Language>
+									<AudioFile>[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="236616955"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{E56AFD25-F15A-4FB8-BD1C-C726322B1B9C}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover" ID="{9D3B167E-86D1-4D33-BAF8-323242B5C08A}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="132632.380952381"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover" ID="{347657E6-A290-4B2C-A16E-DAD284ED1D16}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{022B676C-A40A-42CC-8ED2-961C5E2F350B}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{90BAD58A-C66C-49E7-8E0E-AD6C5CA61BFF}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="132632.380952381"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f945e4f46c96ae44b1cef9faa023894, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5463951492f513489b1ee01b6bd066a4
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 5463951492f513489b1ee01b6bd066a4
+    GuidInternal: 
+    m_lastTime: -8584763168634392103
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 25ca6cb06d64204d876defd9ac08dc59
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 25ca6cb06d64204d876defd9ac08dc59
+    GuidInternal: 
+    m_lastTime: -8584763168635593640
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 25ca6cb06d64204d876defd9ac08dc59
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 80999836f1b8da4bac992cfa9bad31ca
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 80999836f1b8da4bac992cfa9bad31ca
+    GuidInternal: 
+    m_lastTime: -8584763096494239092
+    List:
+    - name: Main
+      guid: fedc774730557f428f262f90cb6a1c0b
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80999836f1b8da4bac992cfa9bad31ca
+      - ElementName: Main
+        ObjectType: 7
+        guid: fedc774730557f428f262f90cb6a1c0b
+      Path: SoundBanks\Default Work Unit\Main
+    - name: Music
+      guid: 0b245965e1abae4394c44bf712745f2a
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80999836f1b8da4bac992cfa9bad31ca
+      - ElementName: Music
+        ObjectType: 7
+        guid: 0b245965e1abae4394c44bf712745f2a
+      Path: SoundBanks\Default Work Unit\Music
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4958a32e87ecd24ba2958a213212f311
+    ParentPath: Events\Default Work Unit
+    guid: 4958a32e87ecd24ba2958a213212f311
+    GuidInternal: 
+    m_lastTime: -8584763096494082600
+    List:
+    - name: Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover
+      guid: 1d91ab7eca0902468dbe8da901b4a4f9
+      id: 1807265342
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4958a32e87ecd24ba2958a213212f311
+      - ElementName: Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover
+        ObjectType: 3
+        guid: 1d91ab7eca0902468dbe8da901b4a4f9
+      Path: Events\Default Work Unit\Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover
+      maxAttenuation: 0
+      maxDuration: 132.63237
+      minDuration: 132.63237
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 073fd7fb506c78419efd0f74718919af
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 073fd7fb506c78419efd0f74718919af
+    GuidInternal: 
+    m_lastTime: -8584763168634704606
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1039bc7238b582469ea9f3aeffc003b7
+    ParentPath: States\Default Work Unit
+    guid: 1039bc7238b582469ea9f3aeffc003b7
+    GuidInternal: 
+    m_lastTime: -8584763168635439182
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 703ec7d0f8ecda4bad1319b5d3f343a0
+    ParentPath: Switches\Default Work Unit
+    guid: 703ec7d0f8ecda4bad1319b5d3f343a0
+    GuidInternal: 
+    m_lastTime: -8584763168635291682
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: da890c41ba9e654c954d11d645a8e666
+    ParentPath: Triggers\Default Work Unit
+    guid: da890c41ba9e654c954d11d645a8e666
+    GuidInternal: 
+    m_lastTime: -8584763168634836366
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 06000000070000000b0000000c000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

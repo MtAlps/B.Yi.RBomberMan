@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2EA35849-EC87-4BD2-A295-8A213212F311}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2EA35849-EC87-4BD2-A295-8A213212F311}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover" ID="{7EAB911D-09CA-4602-8DBE-8DA901B4A4F9}">
+					<ChildrenList>
+						<Action Name="" ID="{255681C9-B2C5-419D-A96F-32708BD38620}" ShortID="441494908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover" ID="{186BAB16-BE47-4222-868A-A5C2298268FA}" WorkUnitID="{AAEE8A93-4AE1-460A-804B-1E90E5B249B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36989980-B8F1-4BDA-AC99-2CFA9BAD31CA}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{36989980-B8F1-4BDA-AC99-2CFA9BAD31CA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4777DCFE-5530-427F-8F26-2F90CB6A1C0B}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{6559240B-ABE1-43AE-94C4-4BF712745F2A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover" ID="{7EAB911D-09CA-4602-8DBE-8DA901B4A4F9}" WorkUnitID="{2EA35849-EC87-4BD2-A295-8A213212F311}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

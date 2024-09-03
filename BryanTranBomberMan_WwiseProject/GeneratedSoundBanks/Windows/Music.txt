@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1807265342	Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover			\Default Work Unit\Play__Undernight_In_birth_Forceful_Step__Mika_s_theme__8bit_cover	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	236616955	[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover	C:\Users\chris\BryanTranBomberMan\BryanTranBomberMan_WwiseProject\.cache\95\{95F0A3AD-7505-A7F3-49B6-167659398642}.wem		\Interactive Music Hierarchy\Default Work Unit\[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover\[Undernight In-birth]Forceful Step (Mika's theme) 8bit cover		23396448
+
