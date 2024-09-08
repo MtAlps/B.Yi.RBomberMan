@@ -348,8 +348,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000018
-  m_Size: 0.6882106
+  m_Value: 1.0000005
+  m_Size: 0.2750464
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -633,15 +633,25 @@ MonoBehaviour:
     https://www.youtube.com/watch?v=R397jeAG_u0
 
 
+    SideSwap Powerup
+    teleportation mechanic:
+
+    - Dani Krossing
+
+    https://www.youtube.com/watch?v=xmhm5jGwonc&t=6s
+
+    -
+    Rune Vejen Petersen
+
+    https://stackoverflow.com/questions/25916106/unity3d-startcoroutine-from-another-script#:~:text=Coroutines%20that%20live%20on%20a%20different%20game%20object,%5BSerializeField%5D%20ScriptOne%20scriptOne%3B%20void%20Start%28%29%20%7B%20StartCoroutine%28scriptOne.StartSmth%28%29%29%3B%20%7D
+
+
     Programming:
 
     -
     Remy (Yihong) Jiang
 
     - Bryan Tran
-
-
-    Other:
 
     - Ricardo Guzman Volpe
 

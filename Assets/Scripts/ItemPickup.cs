@@ -9,6 +9,7 @@ public class ItemPickup : MonoBehaviour
     ExtraBomb,
     BlastRadius,
     SpeedIncrease,
+    SideSwap,
    }
 
    public ItemType type;
@@ -27,6 +28,11 @@ public class ItemPickup : MonoBehaviour
 
         case ItemType.SpeedIncrease:
         player.GetComponent<MovementController>().speed++;
+        break;
+
+        case ItemType.SideSwap:
+        var playerteleport = player.GetComponent<Teleport_Mechanic>();
+        playerteleport.StartCoroutine("Teleport");
         break;
         }
 

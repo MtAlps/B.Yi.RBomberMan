@@ -3678,6 +3678,7 @@ GameObject:
   - component: {fileID: 649001871}
   - component: {fileID: 649001875}
   - component: {fileID: 649001876}
+  - component: {fileID: 649001877}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -3858,6 +3859,20 @@ MonoBehaviour:
   explosionRadius: 1
   destructibleTiles: {fileID: 9508531}
   destructiblePrefab: {fileID: 2107305245678126298, guid: 15d37e3b242234b43b7a8c6ed75cf0c4, type: 3}
+--- !u!114 &649001877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649001870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c735e8ebdee7354280520485af9576b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 649001870}
+  player2: {fileID: 651768070}
 --- !u!1 &651768070
 GameObject:
   m_ObjectHideFlags: 0
@@ -3872,6 +3887,7 @@ GameObject:
   - component: {fileID: 651768073}
   - component: {fileID: 651768072}
   - component: {fileID: 651768071}
+  - component: {fileID: 651768077}
   m_Layer: 3
   m_Name: Player 2
   m_TagString: Player
@@ -4052,6 +4068,20 @@ Transform:
   - {fileID: 1747767426}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &651768077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651768070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c735e8ebdee7354280520485af9576b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 649001870}
+  player2: {fileID: 651768070}
 --- !u!1 &884272894
 GameObject:
   m_ObjectHideFlags: 0
