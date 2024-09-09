@@ -348,8 +348,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 1.0000008
+  m_Size: 0.5149595
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -596,11 +596,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "0.0.1.0s1 Version Notes\n\n - Added version notes to document changes.\n\n-
-    Added credits to credit sources of information.\n\n- Added a main menu to navigate
-    to said version notes and credits.\n\n- Added capability to access the game from
-    the main menu.\n\n- Added capability to access the sample project from the main
-    menu.\n\n- Added music to the main menu and game. "
+  m_text: "0.0.1.0s2 Version Notes\n\n- Added new power up to swap player position
+    with the other player.\n\n- Added a pause menu (esc key) to the game.\n\n- Players
+    can now quit to desktop from pause menu and return to main menu from game.\n\n-
+    Added splash screen to credit WPI and Zigurous.\n\n- Added splash screen for
+    team name and game name.\n\nPlayer Controls:\n\tPlayer 1:\n\t\tWASD - Movement\n\t\tSpace
+    - Place Bomb\n\t\n\tPlayer 2:\n\t\tArrow Keys - Movement\n\t\t, - Place Bomb\n\n\tEsc
+    - Pause Game\n\n-------------------------------------------------------------------------\n\n\n0.0.1.0s1
+    Version Notes\n\n- Added version notes to document changes.\n\n- Added credits
+    to credit sources of information.\n\n- Added a main menu to navigate to said
+    version notes and credits.\n\n- Added capability to access the game from the
+    main menu.\n\n- Added capability to access the sample project from the main menu.\n\n-
+    Added music to the main menu and game. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

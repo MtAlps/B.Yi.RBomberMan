@@ -28,8 +28,12 @@ public class BombController : MonoBehaviour
 
     private void Update()
     {
-        if (bombsRemaining > 0 && Input.GetKeyDown(inputKey)) {
-            StartCoroutine(PlaceBomb());
+        if (!PauseMenu.isPaused)
+        {
+            if (bombsRemaining > 0 && Input.GetKeyDown(inputKey))
+            {
+                StartCoroutine(PlaceBomb());
+            }
         }
     }
     private IEnumerator PlaceBomb()
