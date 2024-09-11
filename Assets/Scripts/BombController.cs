@@ -26,6 +26,13 @@ public class BombController : MonoBehaviour
         bombsRemaining = bombAmount;
     }
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Update()
     {
         if (!PauseMenu.isPaused)
@@ -66,6 +73,8 @@ public class BombController : MonoBehaviour
 
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
+        audioManager.playSFX(audioManager.explosion);
+
         if (length <= 0) {
             return;
         }

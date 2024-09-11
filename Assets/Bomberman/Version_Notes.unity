@@ -122,6 +122,134 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &74643307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 74643309}
+  - component: {fileID: 74643308}
+  m_Layer: 0
+  m_Name: ButtonSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &74643308
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74643307}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d88240dd578241c4ea6470b13f4f6226, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &74643309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74643307}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 525.0752, y: 308.70502, z: -2.542018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &180161199
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,8 +476,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000008
-  m_Size: 0.5149595
+  m_Value: 1.0000007
+  m_Size: 0.47177336
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -600,9 +728,10 @@ MonoBehaviour:
     with the other player.\n\n- Added a pause menu (esc key) to the game.\n\n- Players
     can now quit to desktop from pause menu and return to main menu from game.\n\n-
     Added splash screen to credit WPI and Zigurous.\n\n- Added splash screen for
-    team name and game name.\n\nPlayer Controls:\n\tPlayer 1:\n\t\tWASD - Movement\n\t\tSpace
-    - Place Bomb\n\t\n\tPlayer 2:\n\t\tArrow Keys - Movement\n\t\t, - Place Bomb\n\n\tEsc
-    - Pause Game\n\n-------------------------------------------------------------------------\n\n\n0.0.1.0s1
+    team name and game name.\n\n- Added SFX for button presses\n\n- Added SFX for
+    power-ups, explosions, and teleport.\n\nPlayer Controls:\n\tPlayer 1:\n\t\tWASD
+    - Movement\n\t\tSpace - Place Bomb\n\t\n\tPlayer 2:\n\t\tArrow Keys - Movement\n\t\t,
+    - Place Bomb\n\n\tEsc - Pause Game\n\n-------------------------------------------------------------------------\n\n\n0.0.1.0s1
     Version Notes\n\n- Added version notes to document changes.\n\n- Added credits
     to credit sources of information.\n\n- Added a main menu to navigate to said
     version notes and credits.\n\n- Added capability to access the game from the
@@ -924,6 +1053,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1502842437}
         m_TargetAssemblyTypeName: MainMenuFunctionality, Assembly-CSharp
         m_MethodName: goToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 74643308}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1295,3 +1436,4 @@ SceneRoots:
   - {fileID: 1639324780}
   - {fileID: 1373928467}
   - {fileID: 457078965}
+  - {fileID: 74643309}

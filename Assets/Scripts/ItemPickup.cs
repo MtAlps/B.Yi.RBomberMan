@@ -14,8 +14,17 @@ public class ItemPickup : MonoBehaviour
 
    public ItemType type;
 
-   private void OnItemPickup(GameObject player)
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+    private void OnItemPickup(GameObject player)
    {
+        audioManager.playSFX(audioManager.powerup);
+
         switch (type)
         {
         case ItemType.ExtraBomb:

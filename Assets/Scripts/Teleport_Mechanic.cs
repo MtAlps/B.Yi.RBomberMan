@@ -9,6 +9,13 @@ public class Teleport_Mechanic : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject player2;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +24,7 @@ public class Teleport_Mechanic : MonoBehaviour
     }
     public IEnumerator Teleport()
     {
+        audioManager.playSFX(audioManager.teleportSFX);
         playerController.enabled = false;
         playerController2.enabled = false;
         yield return new WaitForSeconds(0.01f);
