@@ -9,12 +9,22 @@ public class ItemPickup : MonoBehaviour
     ExtraBomb,
     BlastRadius,
     SpeedIncrease,
+    SideSwap,
    }
 
    public ItemType type;
 
-   private void OnItemPickup(GameObject player)
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+    private void OnItemPickup(GameObject player)
    {
+        audioManager.playSFX(audioManager.powerup);
+
         switch (type)
         {
         case ItemType.ExtraBomb:
@@ -27,6 +37,11 @@ public class ItemPickup : MonoBehaviour
 
         case ItemType.SpeedIncrease:
         player.GetComponent<MovementController>().speed++;
+        break;
+
+        case ItemType.SideSwap:
+        var playerteleport = player.GetComponent<Teleport_Mechanic>();
+        playerteleport.StartCoroutine("Teleport");
         break;
         }
 
