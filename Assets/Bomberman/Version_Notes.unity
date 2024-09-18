@@ -476,8 +476,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000007
-  m_Size: 0.47177336
+  m_Value: 1.0000005
+  m_Size: 0.36471912
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 1097320132}
   - component: {fileID: 1097320134}
   m_Layer: 5
-  m_Name: Credits Content
+  m_Name: Version Notes Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -724,14 +724,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "0.0.1.0s2 Version Notes\n\n- Added new power up to swap player position
-    with the other player.\n\n- Added a pause menu (esc key) to the game.\n\n- Players
-    can now quit to desktop from pause menu and return to main menu from game.\n\n-
-    Added splash screen to credit WPI and Zigurous.\n\n- Added splash screen for
-    team name and game name.\n\n- Added SFX for button presses\n\n- Added SFX for
-    power-ups, explosions, and teleport.\n\nPlayer Controls:\n\tPlayer 1:\n\t\tWASD
-    - Movement\n\t\tSpace - Place Bomb\n\t\n\tPlayer 2:\n\t\tArrow Keys - Movement\n\t\t,
-    - Place Bomb\n\n\tEsc - Pause Game\n\n-------------------------------------------------------------------------\n\n\n0.0.1.0s1
+  m_text: "0.0.1.0s3 Version Notes\n\n- Added screen shake effects for player death.\n\n-
+    Added two new stages.\n\n- Added stage select menu.\n\n- Added music to both
+    new stages.\n\n- Added HP system for prolonged play.\n\n-------------------------------------------------------------------------\n\n0.0.1.0s2
+    Version Notes\n\n- Added new power up to swap player position with the other
+    player.\n\n- Added a pause menu (esc key) to the game.\n\n- Players can now quit
+    to desktop from pause menu and return to main menu from game.\n\n- Added splash
+    screen to credit WPI and Zigurous.\n\n- Added splash screen for team name and
+    game name.\n\n- Added SFX for button presses\n\n- Added SFX for power-ups, explosions,
+    and teleport.\n\nPlayer Controls:\n\tPlayer 1:\n\t\tWASD - Movement\n\t\tSpace
+    - Place Bomb\n\t\n\tPlayer 2:\n\t\tArrow Keys - Movement\n\t\t, - Place Bomb\n\n\tEsc
+    - Pause Game\n\n-------------------------------------------------------------------------\n\n\n0.0.1.0s1
     Version Notes\n\n- Added version notes to document changes.\n\n- Added credits
     to credit sources of information.\n\n- Added a main menu to navigate to said
     version notes and credits.\n\n- Added capability to access the game from the

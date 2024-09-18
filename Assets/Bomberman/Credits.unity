@@ -477,7 +477,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
   m_Value: 1.0000005
-  m_Size: 0.3550878
+  m_Size: 0.3478076
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -743,6 +743,14 @@ MonoBehaviour:
     - Rehope Games
 
     https://www.youtube.com/watch?v=N8whM1GjH4w
+
+
+    Shake
+    Manager Scripts:
+
+    - Max Health Studios
+
+    https://www.youtube.com/watch?v=uW67TGtaBRo
 
 
     Main
