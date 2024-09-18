@@ -7,7 +7,7 @@ public class MainMenuFunctionality : MonoBehaviour
 {
    public void playGame()
     {
-        SceneManager.LoadScene("Level_01");
+        SceneManager.LoadScene("Stage_Select");
     }
 
     public void quitGame()
@@ -35,4 +35,18 @@ public class MainMenuFunctionality : MonoBehaviour
         SceneManager.LoadScene("Version_Notes");
     }
 
+    public void Level_01()
+    {
+        SceneManager.LoadScene("Level_01");
+    }
+    
+    public void Level_02()
+    {
+        SceneManager.LoadScene("Level_02");
+    }
+
+    public void Level_03()
+    {
+        SceneManager.LoadScene("Level_03");
+    }
 }

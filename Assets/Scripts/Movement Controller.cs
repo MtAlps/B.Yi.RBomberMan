@@ -77,6 +77,7 @@ private void OnTriggerEnter2D(Collider2D other)
     if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
         if (GetComponent<HealthSystem>().health == 0)
         {
+            ScreenShake();
             DeathSequence();
         } else {
             GetComponent<HealthSystem>().health -= 1;
@@ -104,6 +105,12 @@ private void OnDeathSequenceEnded()
     GameManager.Instance.CheckWinState();
 }
 
+    void ScreenShake() {
+        ShakeManager sM = GameObject.Find("ShakeManager").GetComponent<ShakeManager>();
+        sM.speed = 4f;
+        sM.amount = 0.1f;
+        sM.duration = 1f;
+    }
+
 }
-        
 
