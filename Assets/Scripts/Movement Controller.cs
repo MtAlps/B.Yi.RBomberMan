@@ -27,16 +27,28 @@ private void Awake()
 
 private void Update()
 {
-    if (Input.GetKey(inputUp)) {
-        SetDirection(Vector2.up, spriteRendererUp);
-    } else if (Input.GetKey(inputDown)) { 
-        SetDirection(Vector2.down, spriteRendererDown);
-    } else if (Input.GetKey(inputLeft)) {
-        SetDirection(Vector2.left, spriteRendererLeft);
-    } else if (Input.GetKey(inputRight)) {
-        SetDirection(Vector2.right, spriteRendererRight);
-    } else {
-        SetDirection(Vector2.zero, activeSpriteRenderer);
+    if (!PauseMenu.isPaused)
+    {
+        if (Input.GetKey(inputUp))
+        {
+            SetDirection(Vector2.up, spriteRendererUp);
+        }
+        else if (Input.GetKey(inputDown))
+        {
+            SetDirection(Vector2.down, spriteRendererDown);
+        }
+        else if (Input.GetKey(inputLeft))
+        {
+            SetDirection(Vector2.left, spriteRendererLeft);
+        }
+        else if (Input.GetKey(inputRight))
+        {
+            SetDirection(Vector2.right, spriteRendererRight);
+        }
+        else
+        {
+            SetDirection(Vector2.zero, activeSpriteRenderer);
+        }
     }
 }
 private void FixedUpdate()
@@ -63,6 +75,7 @@ private void SetDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRen
 private void OnTriggerEnter2D(Collider2D other)
 {
     if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
+        ScreenShake();
         DeathSequence();
 
     }
@@ -88,6 +101,12 @@ private void OnDeathSequenceEnded()
     GameManager.Instance.CheckWinState();
 }
 
+    void ScreenShake() {
+        ShakeManager sM = GameObject.Find("ShakeManager").GetComponent<ShakeManager>();
+        sM.speed = 4f;
+        sM.amount = 0.1f;
+        sM.duration = 1f;
+    }
+
 }
-        
 
