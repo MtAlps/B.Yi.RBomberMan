@@ -476,8 +476,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000006
-  m_Size: 0.43527022
+  m_Value: 1.0000004
+  m_Size: 0.21098605
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -727,6 +727,14 @@ MonoBehaviour:
   m_text: 'Tutorial for Scrolling Credits:
 
     - Christina Creates Games https://www.youtube.com/watch?v=Sw_tYG8CP-A
+
+
+    Tutorial
+    for Animation of 2D Images
+
+    - samyam
+
+    https://www.youtube.com/watch?v=1Ll1fy2EehU&t=86s
 
 
     Tutorial

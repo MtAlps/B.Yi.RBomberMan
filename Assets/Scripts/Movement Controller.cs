@@ -75,8 +75,12 @@ private void SetDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRen
 private void OnTriggerEnter2D(Collider2D other)
 {
     if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
-        DeathSequence();
-
+        if (GetComponent<HealthSystem>().health == 0)
+        {
+            DeathSequence();
+        } else {
+            GetComponent<HealthSystem>().health -= 1;
+        }
     }
 }
 
