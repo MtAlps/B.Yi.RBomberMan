@@ -153,7 +153,7 @@ MonoBehaviour:
   - {fileID: -5598041726246172800, guid: 8482cc10c037d2846a26e45ca1a26d7b, type: 3}
   - {fileID: -5070355926835817348, guid: 8482cc10c037d2846a26e45ca1a26d7b, type: 3}
   - {fileID: -5028786312047504514, guid: 8482cc10c037d2846a26e45ca1a26d7b, type: 3}
-  animationTime: 0.1666667
+  animationTime: 0.16666667
   loop: 0
   idle: 0
 --- !u!114 &2107305245678126298
@@ -174,4 +174,3 @@ MonoBehaviour:
   - {fileID: 5261799546809149345, guid: 9b1288d305e275240983575481a0bdb1, type: 3}
   - {fileID: 1806180638965377066, guid: 892da051e68da624cb30276c0b73a51c, type: 3}
   - {fileID: 8174093022681791303, guid: 473f9c9eedbc9e841ac144b8dbd922a1, type: 3}
-  - {fileID: 519502629511956462, guid: f041002d9e55e4941909f5f0950303ba, type: 3}
