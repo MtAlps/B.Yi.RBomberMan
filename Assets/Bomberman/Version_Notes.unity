@@ -476,8 +476,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000005
-  m_Size: 0.36471912
+  m_Value: 1.0000002
+  m_Size: 0.18572995
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -724,9 +724,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "0.0.1.0s3 Version Notes\n\n- Added screen shake effects for player death.\n\n-
-    Added two new stages.\n\n- Added stage select menu.\n\n- Added music to both
-    new stages.\n\n- Added HP system for prolonged play.\n\n-------------------------------------------------------------------------\n\n0.0.1.0s2
+  m_text: "0.0.1.0s4 Version Notes\n\n- Added invincibility frames system to prevent
+    players from losing all their health from one damage source.\n\n0.0.1.0s3 Version
+    Notes\n\n- Added screen shake effects for player death.\n\n- Added two new stages.\n\n-
+    Added stage select menu.\n\n- Added music to both new stages.\n\n- Added HP system
+    for prolonged play.\n\n-------------------------------------------------------------------------\n\n0.0.1.0s2
     Version Notes\n\n- Added new power up to swap player position with the other
     player.\n\n- Added a pause menu (esc key) to the game.\n\n- Players can now quit
     to desktop from pause menu and return to main menu from game.\n\n- Added splash
