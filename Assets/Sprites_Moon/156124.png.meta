@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: 0d30330be1408da4282d0e936621cc9b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoonGem
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea808193f4622364bbcff93a73ef8efc
+      internalID: -311820335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonTopPipe1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e35085dd834274b87bd110fa2c0f2d
+      internalID: -1905987426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonTopPipe2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4064f871d846377459d83997cb6b6142
+      internalID: 741319180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonWallTech
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005ab4b265178cd43b882bde1bfc3a8c
+      internalID: 268920632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonPipe
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e53fae1d1f29ec43a6264cb24f7aac0
+      internalID: -88337030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonShadow
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02eeef09d5b0174f8824516c14a1f94
+      internalID: -1823287771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonConnector
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e096c032c353f4c8ca029ddbe86a1e
+      internalID: -1002963057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonTile
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e4287ccf1d0314f8806edfa73303f3
+      internalID: -1110242287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonCrater
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f1c172a3dd8214b9a8b2e979a9a64c
+      internalID: 736657979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBlueCrator
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a14b3680f62941bd17ffa771d5bc5
+      internalID: 902481900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      156124_0: 2039825140
+      156124_10: 1625269720
+      156124_100: -1850251196
+      156124_101: -1041968618
+      156124_102: 777951316
+      156124_103: 46218568
+      156124_104: 653163985
+      156124_105: 1025742192
+      156124_106: 1534184543
+      156124_107: -165008750
+      156124_108: 688719767
+      156124_109: 620960636
+      156124_11: -1896958020
+      156124_110: 1976865070
+      156124_111: -1117412815
+      156124_112: 1602268705
+      156124_113: 1179401460
+      156124_114: -379595274
+      156124_115: 1220718993
+      156124_116: -1157070934
+      156124_117: -828032704
+      156124_118: 1699816992
+      156124_119: -1020172539
+      156124_12: 37412408
+      156124_120: 701954224
+      156124_121: 1369664714
+      156124_122: 1879701852
+      156124_123: -2124813663
+      156124_124: 969496503
+      156124_125: -1348924147
+      156124_126: 1681587098
+      156124_127: -2076217594
+      156124_128: 1589250098
+      156124_129: -626688785
+      156124_13: -1255520047
+      156124_130: -1708976489
+      156124_131: 1314265760
+      156124_132: -965932127
+      156124_133: -1428937618
+      156124_134: -476266809
+      156124_135: -372816142
+      156124_136: -994210950
+      156124_137: 1061941586
+      156124_138: 1118581175
+      156124_139: 2140892647
+      156124_14: 1304807839
+      156124_140: -536792299
+      156124_141: -403791043
+      156124_142: 162851589
+      156124_143: 214582646
+      156124_144: -1949969081
+      156124_145: 523871038
+      156124_146: 658114539
+      156124_147: 461510463
+      156124_148: -1692233026
+      156124_149: 953893319
+      156124_15: -1272883182
+      156124_150: 1360951659
+      156124_151: 19086181
+      156124_152: 1238638589
+      156124_153: -936006622
+      156124_154: -1797620459
+      156124_155: 1343656064
+      156124_156: 120063425
+      156124_157: 552053444
+      156124_158: 827408772
+      156124_159: 2026198888
+      156124_16: -1073318215
+      156124_160: 208993341
+      156124_161: -1672208194
+      156124_162: -157606613
+      156124_163: -2072360941
+      156124_164: 1886057236
+      156124_165: 1174958972
+      156124_166: -2044559303
+      156124_167: 93597825
+      156124_168: -1275375661
+      156124_169: 1449581826
+      156124_17: 1344951273
+      156124_170: -1172143273
+      156124_171: -1056106881
+      156124_172: 301212887
+      156124_173: 493819315
+      156124_174: 1328939161
+      156124_175: 1683556407
+      156124_176: -1668159473
+      156124_177: -187364954
+      156124_178: -659813872
+      156124_179: -1040119194
+      156124_180: -1781041101
+      156124_181: 2139016881
+      156124_182: -1616614536
+      156124_183: 1202701528
+      156124_184: -1790677881
+      156124_185: 216191758
+      156124_186: -43152002
+      156124_187: 1176600927
+      156124_188: 1754496262
+      156124_189: -2106429705
+      156124_190: 2065514586
+      156124_191: 1662695956
+      156124_192: 1385263723
+      156124_193: -1817497891
+      156124_194: 444501157
+      156124_195: 1856716273
+      156124_196: -102254076
+      156124_197: 757962554
+      156124_198: -1496613761
+      156124_199: -1273460462
+      156124_20: 582156619
+      156124_200: -1346292186
+      156124_201: -909847688
+      156124_202: -1521441474
+      156124_203: 1991388626
+      156124_204: -1592887349
+      156124_205: -1638858970
+      156124_206: -2056679754
+      156124_207: -1566263711
+      156124_208: -2103495052
+      156124_209: -629572729
+      156124_21: 1887852580
+      156124_210: 1754983815
+      156124_211: 905851486
+      156124_212: -1002281857
+      156124_213: 1603310039
+      156124_214: -821127677
+      156124_215: -1497848271
+      156124_216: 1749774668
+      156124_217: -1891649873
+      156124_218: 685628702
+      156124_219: 1120780891
+      156124_22: 1675931897
+      156124_220: 928318912
+      156124_23: 1478647886
+      156124_24: 45254336
+      156124_25: 1973783600
+      156124_26: -1753348938
+      156124_27: -1516248828
+      156124_28: 859932655
+      156124_29: -414283786
+      156124_30: 1693933425
+      156124_31: -2098240183
+      156124_32: 966208175
+      156124_33: 1357605480
+      156124_34: 1982367333
+      156124_38: -1098987747
+      156124_39: -1372935554
+      156124_40: -2136609061
+      156124_41: 1007485761
+      156124_42: -352977936
+      156124_43: -1283793949
+      156124_44: -2136618898
+      156124_45: -901398549
+      156124_46: -933243999
+      156124_47: -1475540029
+      156124_48: -2123093078
+      156124_49: 1113582197
+      156124_5: -195112131
+      156124_50: -1145800751
+      156124_51: -970835004
+      156124_52: -1517938310
+      156124_53: -156293470
+      156124_54: 509239603
+      156124_56: -2005497900
+      156124_57: 449319855
+      156124_58: -1586935309
+      156124_59: 111804164
+      156124_6: -1971552977
+      156124_60: -1143126482
+      156124_61: 1988206161
+      156124_62: 1940676937
+      156124_63: 1765538634
+      156124_64: -609918844
+      156124_65: -2001849059
+      156124_66: 1738730422
+      156124_67: -189039037
+      156124_68: -20502876
+      156124_69: -947241718
+      156124_7: -1394990914
+      156124_70: -465234271
+      156124_71: -1070641127
+      156124_72: 489061389
+      156124_73: -1482726283
+      156124_74: -1860719271
+      156124_75: 547132757
+      156124_76: -1500384608
+      156124_77: -1108795042
+      156124_78: 1609163769
+      156124_79: -1937657676
+      156124_8: 306755685
+      156124_80: -427190289
+      156124_81: -1890971677
+      156124_82: -1795562517
+      156124_83: -1892344497
+      156124_84: -41937569
+      156124_85: 490123369
+      156124_86: -595163532
+      156124_87: 2113781534
+      156124_88: -920691117
+      156124_89: -1500372079
+      156124_9: -1306142593
+      156124_90: 352281035
+      156124_91: 1271022391
+      156124_92: -1086311918
+      156124_93: -1256888065
+      156124_94: -1232934464
+      156124_95: -1533689411
+      156124_96: -130428708
+      156124_97: -866661443
+      156124_98: 880218776
+      156124_99: -218620096
+      MoonBlueCrator: 902481900
+      MoonConnector: -1002963057
+      MoonCrater: 736657979
+      MoonGem: -311820335
+      MoonPipe: -88337030
+      MoonShadow: -1823287771
+      MoonTile: -1110242287
+      MoonTopPipe1: -1905987426
+      MoonTopPipe2: 741319180
+      MoonWallTech: 268920632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

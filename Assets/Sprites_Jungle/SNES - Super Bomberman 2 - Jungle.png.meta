@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 599d3aa3c39ef4c429137d802a8b35dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrassWall2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e86cf72286eea40a3cdbb00204ce47
+      internalID: -1160058210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BerryWall
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a91dd0c1c3aa4d8a7698fb8f577db
+      internalID: -1027134461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassShadow
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c642925a7163646bec5d3b63c7f59d
+      internalID: -87429462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c449b06a568934cbe00e1b6ed7d9da
+      internalID: -1936770334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MushroomDestruct
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673f6eeffb84f2e4f92aebbd617adb8d
+      internalID: -799785668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassWall1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773f855883251bf4783c5b4185baae6d
+      internalID: 1730472584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628edf5218bce124f81f90bdbe73172f
+      internalID: 697003351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3654bee7b5c5a94399f8cbd8e74e775
+      internalID: -1781889687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa7d473bfe3f3b47ba97a7c41364a23
+      internalID: -1722943280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe2ea8c42d318c489e9f2b19d301fe3
+      internalID: 1616004192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5699d50c6e7bb7343bee7667d6ade5cd
+      internalID: 820274405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246eefad2c02b1499d3b92bad810e17
+      internalID: 1581407062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2174b913885613f4aaad7839b0530bc0
+      internalID: 1754805531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BerryWall: -1027134461
+      Grass: 697003351
+      GrassShadow: -87429462
+      GrassWall1: 1730472584
+      GrassWall2: -1160058210
+      Mush1: -1781889687
+      Mush2: -1722943280
+      Mush3: 1616004192
+      Mush4: 820274405
+      Mush5: 1581407062
+      Mush6: 1754805531
+      MushroomDestruct: -799785668
+      Rock: -1936770334
+      SNES - Super Bomberman 2 - Jungle_0: -1463030909
+      SNES - Super Bomberman 2 - Jungle_13: 2080418981
+      SNES - Super Bomberman 2 - Jungle_14: -56669615
+      SNES - Super Bomberman 2 - Jungle_15: -365192552
+      SNES - Super Bomberman 2 - Jungle_16: -877226599
+      SNES - Super Bomberman 2 - Jungle_19: 2023831713
+      SNES - Super Bomberman 2 - Jungle_2: 176440858
+      SNES - Super Bomberman 2 - Jungle_20: -168141917
+      SNES - Super Bomberman 2 - Jungle_21: 1578693172
+      SNES - Super Bomberman 2 - Jungle_22: 253188689
+      SNES - Super Bomberman 2 - Jungle_23: 596650232
+      SNES - Super Bomberman 2 - Jungle_24: 1907031788
+      SNES - Super Bomberman 2 - Jungle_25: -1616327317
+      SNES - Super Bomberman 2 - Jungle_26: 1532583879
+      SNES - Super Bomberman 2 - Jungle_27: 88976
+      SNES - Super Bomberman 2 - Jungle_28: -606961001
+      SNES - Super Bomberman 2 - Jungle_29: -58573957
+      SNES - Super Bomberman 2 - Jungle_3: -1810269977
+      SNES - Super Bomberman 2 - Jungle_30: 1795637005
+      SNES - Super Bomberman 2 - Jungle_31: 816278658
+      SNES - Super Bomberman 2 - Jungle_32: 1773822656
+      SNES - Super Bomberman 2 - Jungle_33: 730154782
+      SNES - Super Bomberman 2 - Jungle_34: -1464040264
+      SNES - Super Bomberman 2 - Jungle_35: -1100450600
+      SNES - Super Bomberman 2 - Jungle_36: 315781801
+      SNES - Super Bomberman 2 - Jungle_37: 1020905799
+      SNES - Super Bomberman 2 - Jungle_38: -870292508
+      SNES - Super Bomberman 2 - Jungle_39: -1749430428
+      SNES - Super Bomberman 2 - Jungle_4: 1960528226
+      SNES - Super Bomberman 2 - Jungle_40: -1194108899
+      SNES - Super Bomberman 2 - Jungle_41: 708566619
+      SNES - Super Bomberman 2 - Jungle_42: -1643922040
+      SNES - Super Bomberman 2 - Jungle_43: -8170330
+      SNES - Super Bomberman 2 - Jungle_44: -1477261510
+      SNES - Super Bomberman 2 - Jungle_45: 360560727
+      SNES - Super Bomberman 2 - Jungle_46: -1449397090
+      SNES - Super Bomberman 2 - Jungle_47: 657931714
+      SNES - Super Bomberman 2 - Jungle_5: 1454617937
+      SNES - Super Bomberman 2 - Jungle_54: 2105490052
+      SNES - Super Bomberman 2 - Jungle_55: -1390224668
+      SNES - Super Bomberman 2 - Jungle_7: -1723362818
+      SNES - Super Bomberman 2 - Jungle_8: -1310014085
+      SNES - Super Bomberman 2 - Jungle_9: 53564857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

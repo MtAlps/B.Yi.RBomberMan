@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: 303a965f56151ee48bd49288ad83cc1d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548c6923870f68f45b643ac8b357cca5
+      internalID: 537737707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midwall1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b326495c1ecd2c42b6bfea74ae51ab6
+      internalID: 1163930310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidWall2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daa42620ca0d9c4a8653abfb2927f4c
+      internalID: 907768102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midwall3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acb4ca325f1d5a488bcfd76522ca288
+      internalID: 1265295642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botwall1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9ac3a0428456a4390a31bd2597a5fd
+      internalID: -69054833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botwall2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088566a510887c94facb9f527f54c41d
+      internalID: -1645795123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botwall3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e628d6f6d78dfc140b8eb5c2375e170f
+      internalID: -600331104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc595c4bfc90a4e469cbdf0012f22a47
+      internalID: 1742191039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b0f6a4743590b408881d1e2eafd3df
+      internalID: -2031208484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9264f7eb5e5c45d40941bf2b4b7a9895
+      internalID: -1766516460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416bbf9c1d4f5cd4cacda14304482e38
+      internalID: -574412007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaa22c4bf0c89c40a39ba256d576c7e
+      internalID: -317706402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba4eb78e3519124390599345690f4c7
+      internalID: -830818645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spikefloor
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1f416991d387b498ac7c8e9a44f41f
+      internalID: -873538382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grate1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015ccafc2d2f4a746a21612f45a3405a
+      internalID: 616348120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grate2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a306048a69f371047ab0f3eb534ae1fd
+      internalID: -1466618974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grate3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a0c2079e4e60d44a29009097a88206
+      internalID: 406383664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grate4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981d9a415634c6d4e8a9f1b9d9be43ed
+      internalID: 1620771419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d02d3643d2286b45a45d255bdc40a74
+      internalID: -897558821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e233e6b606c7a4f8437ff3e3165f04
+      internalID: -533160409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f61f27b5a9d43544b7f13b9480858ab
+      internalID: -1048106600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754c8afa4df19d40b41b4468d0327ed
+      internalID: 1567655248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8afc9fcfcbb7b49b6907acd6d1779f
+      internalID: -649463906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42322723f50abc54cb6f129d1f3bce4f
+      internalID: 982322662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0335c2601922ab4a879682069159e85
+      internalID: -1290081521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      B1: -1048106600
+      B2: 1567655248
+      B3: 982322662
+      B4: -1290081521
+      B5: -649463906
+      B6: -897558821
+      B7: -533160409
+      Botwall1: -69054833
+      Botwall2: -1645795123
+      Botwall3: -600331104
+      Door1: 1742191039
+      Door2: -2031208484
+      Door3: -1766516460
+      Door4: -574412007
+      Door5: -317706402
+      Door6: -830818645
+      MidWall2: 907768102
+      Midwall1: 1163930310
+      Midwall3: 1265295642
+      Spikefloor: -873538382
+      Tiles_0: -910292106
+      Tiles_10: 1633835855
+      Tiles_100: -1138900799
+      Tiles_101: -486119272
+      Tiles_102: -955115600
+      Tiles_103: -39925273
+      Tiles_104: 1290105302
+      Tiles_105: 1084752274
+      Tiles_106: 187898587
+      Tiles_107: -1200575692
+      Tiles_108: -827471146
+      Tiles_109: 1905343066
+      Tiles_11: -1170429669
+      Tiles_110: 96651168
+      Tiles_111: 1102047228
+      Tiles_112: -1607568493
+      Tiles_113: -1940702783
+      Tiles_114: -910339338
+      Tiles_115: -1019168773
+      Tiles_116: 1307881737
+      Tiles_117: -446780741
+      Tiles_118: -862745060
+      Tiles_119: -1707061078
+      Tiles_12: -163027154
+      Tiles_120: 691555600
+      Tiles_121: 905439184
+      Tiles_122: -651392072
+      Tiles_123: -1492534381
+      Tiles_124: -2043134126
+      Tiles_125: -182585268
+      Tiles_126: -7085531
+      Tiles_127: -1911995565
+      Tiles_128: 1823691169
+      Tiles_129: 531615151
+      Tiles_13: 1535134160
+      Tiles_130: -929905163
+      Tiles_131: -11883313
+      Tiles_132: -1070354553
+      Tiles_133: -1178715253
+      Tiles_134: 1743666829
+      Tiles_135: 1707139649
+      Tiles_136: -1055828945
+      Tiles_137: -1820867094
+      Tiles_138: 1529951329
+      Tiles_139: -158099154
+      Tiles_14: -273401983
+      Tiles_140: 1477347580
+      Tiles_141: -1985522810
+      Tiles_142: -2139741922
+      Tiles_143: -1842820833
+      Tiles_144: -1466886015
+      Tiles_145: 457758523
+      Tiles_146: 863384832
+      Tiles_147: -550226248
+      Tiles_148: 582440332
+      Tiles_149: -1912361485
+      Tiles_15: 990148865
+      Tiles_152: 1856306517
+      Tiles_153: 112195934
+      Tiles_154: 633710148
+      Tiles_155: 21461596
+      Tiles_156: 834586576
+      Tiles_157: -2075614955
+      Tiles_158: 1637951297
+      Tiles_159: 1386420843
+      Tiles_16: -1561300531
+      Tiles_160: -1653220138
+      Tiles_161: 423099542
+      Tiles_162: -1182921364
+      Tiles_165: 45818443
+      Tiles_166: -1326824725
+      Tiles_167: -998125222
+      Tiles_168: 471124885
+      Tiles_169: 729639838
+      Tiles_17: -1288014589
+      Tiles_170: 852754048
+      Tiles_171: -1944817761
+      Tiles_172: -2099007399
+      Tiles_173: -1309720318
+      Tiles_174: 167835813
+      Tiles_175: -1678056332
+      Tiles_178: 222492281
+      Tiles_179: 1619160057
+      Tiles_18: -126753852
+      Tiles_180: 2008871205
+      Tiles_181: -1159983524
+      Tiles_182: 419645227
+      Tiles_183: 323705903
+      Tiles_184: -437899904
+      Tiles_185: -879617075
+      Tiles_186: -4088514
+      Tiles_187: 967256938
+      Tiles_188: -459282833
+      Tiles_189: -929312042
+      Tiles_19: 547368965
+      Tiles_190: 1639903920
+      Tiles_191: 145116577
+      Tiles_193: -390126737
+      Tiles_194: -789306246
+      Tiles_197: -795149037
+      Tiles_198: -944629982
+      Tiles_199: -1294552748
+      Tiles_2: 1345582188
+      Tiles_20: 1667941165
+      Tiles_200: -1440239785
+      Tiles_201: 567387489
+      Tiles_202: -2033498634
+      Tiles_203: -1617095922
+      Tiles_204: 477098941
+      Tiles_209: 421771946
+      Tiles_21: -1402674350
+      Tiles_210: -343511303
+      Tiles_211: 1573728863
+      Tiles_212: -1139614451
+      Tiles_213: -469411271
+      Tiles_216: 974554580
+      Tiles_217: -827665488
+      Tiles_218: 627225305
+      Tiles_219: -618525480
+      Tiles_22: -1031287229
+      Tiles_220: 1925509837
+      Tiles_221: -1874532300
+      Tiles_222: 1797924556
+      Tiles_226: 1238977438
+      Tiles_227: 223315679
+      Tiles_228: 1046985127
+      Tiles_229: 290120047
+      Tiles_230: -987069030
+      Tiles_231: -214051129
+      Tiles_232: 1486768188
+      Tiles_233: -1095687688
+      Tiles_234: -1785080840
+      Tiles_235: 78486903
+      Tiles_236: -995997436
+      Tiles_237: -758303102
+      Tiles_238: -2001078098
+      Tiles_239: 457206741
+      Tiles_240: -560706045
+      Tiles_241: 2074501266
+      Tiles_242: -2020238267
+      Tiles_243: -1491699966
+      Tiles_244: 1522048402
+      Tiles_245: -1137407702
+      Tiles_246: 786991357
+      Tiles_247: 499292139
+      Tiles_248: 402746053
+      Tiles_249: 1462315835
+      Tiles_250: -126575322
+      Tiles_251: 151372624
+      Tiles_252: 1134366056
+      Tiles_253: 1688743422
+      Tiles_254: 1508712330
+      Tiles_255: 1679381093
+      Tiles_256: -1852826694
+      Tiles_257: -754827917
+      Tiles_258: 1552843595
+      Tiles_259: 2124164688
+      Tiles_26: -779289713
+      Tiles_260: -537237153
+      Tiles_261: 668227687
+      Tiles_262: -670930908
+      Tiles_263: -395033702
+      Tiles_264: 1116206056
+      Tiles_265: 1580134277
+      Tiles_266: -917220886
+      Tiles_267: -1278790569
+      Tiles_268: -309037206
+      Tiles_269: 1986835402
+      Tiles_27: -378975590
+      Tiles_270: -936499047
+      Tiles_271: 901843563
+      Tiles_272: 1304980481
+      Tiles_273: -1543699743
+      Tiles_274: 53909723
+      Tiles_275: 1989975047
+      Tiles_276: -917393707
+      Tiles_277: -1436575096
+      Tiles_278: -811782026
+      Tiles_279: 574206290
+      Tiles_28: 1070590976
+      Tiles_280: 1526078616
+      Tiles_281: 134408758
+      Tiles_282: -451452313
+      Tiles_283: -653955540
+      Tiles_284: 206074040
+      Tiles_285: -326714917
+      Tiles_286: -353356442
+      Tiles_287: -1756584460
+      Tiles_288: -232933696
+      Tiles_289: 313808550
+      Tiles_29: -521374793
+      Tiles_290: 1777897676
+      Tiles_291: 764618481
+      Tiles_292: -685588530
+      Tiles_293: 1594847211
+      Tiles_3: 127948989
+      Tiles_30: 578567484
+      Tiles_31: -973405373
+      Tiles_32: -1581887243
+      Tiles_33: -739558914
+      Tiles_34: -1433846407
+      Tiles_35: -2120966596
+      Tiles_36: 969996498
+      Tiles_37: 803658244
+      Tiles_38: -400521122
+      Tiles_39: -1346403451
+      Tiles_4: -303371896
+      Tiles_40: -2127679109
+      Tiles_41: 1226897519
+      Tiles_42: -124468745
+      Tiles_43: -1106626561
+      Tiles_44: -94900715
+      Tiles_48: 1888759955
+      Tiles_49: -1880529879
+      Tiles_5: -1864125924
+      Tiles_50: 1155493730
+      Tiles_51: -2096227955
+      Tiles_52: 226762660
+      Tiles_53: 354964707
+      Tiles_54: 345034030
+      Tiles_55: 604568849
+      Tiles_56: -1139341345
+      Tiles_57: -1664862795
+      Tiles_58: -1210381577
+      Tiles_59: -1157438414
+      Tiles_6: 1092756170
+      Tiles_60: -910574114
+      Tiles_61: 1530630977
+      Tiles_62: -856429387
+      Tiles_63: 1894715513
+      Tiles_64: 2018676716
+      Tiles_65: 22916583
+      Tiles_66: -1080538382
+      Tiles_67: -1778786682
+      Tiles_68: -1805033038
+      Tiles_69: 1052067920
+      Tiles_7: 445807369
+      Tiles_70: 669166366
+      Tiles_71: 817143511
+      Tiles_72: 1445825092
+      Tiles_73: 2065826059
+      Tiles_74: -71727042
+      Tiles_75: 1491266720
+      Tiles_76: 541453587
+      Tiles_77: 1310183282
+      Tiles_78: -94227891
+      Tiles_79: 1528493723
+      Tiles_8: 1263050800
+      Tiles_80: -462564769
+      Tiles_81: -1390923218
+      Tiles_82: 277217758
+      Tiles_83: 424830237
+      Tiles_84: -1219247062
+      Tiles_85: 415316860
+      Tiles_86: -1811622590
+      Tiles_87: 1155308239
+      Tiles_88: -2040797380
+      Tiles_89: 45095621
+      Tiles_9: -135008729
+      Tiles_90: -85980905
+      Tiles_91: -1469583277
+      Tiles_92: 2091889637
+      Tiles_93: -830708980
+      Tiles_94: -1112473559
+      Tiles_95: 1211195181
+      Tiles_96: 1100811271
+      Tiles_97: -1041640675
+      Tiles_98: -1634649247
+      Tiles_99: 799857319
+      Wall1: 537737707
+      grate1: 616348120
+      grate2: -1466618974
+      grate3: 406383664
+      grate4: 1620771419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
