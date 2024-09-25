@@ -7,6 +7,7 @@ public class MovementController : MonoBehaviour
 public new Rigidbody2D rigidbody { get; private set; }
 private Vector2 direction = Vector2.down;
 public float speed = 5f;
+public bool isInvincible = false;
 
 public KeyCode inputUp = KeyCode.W;
 public KeyCode inputDown = KeyCode.S;
@@ -75,14 +76,24 @@ private void SetDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRen
 private void OnTriggerEnter2D(Collider2D other)
 {
     if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
-        if (GetComponent<HealthSystem>().health == 0)
-        {
-            ScreenShake();
-            DeathSequence();
-        } else {
+        if (isInvincible == false) {
             GetComponent<HealthSystem>().health -= 1;
+            if (GetComponent<HealthSystem>().health == 0)
+            {
+                ScreenShake();
+                DeathSequence();
+            } else {
+                StartCoroutine("iFrames");
+            }
         }
     }
+}
+
+public IEnumerator iFrames()
+{
+    isInvincible = true;
+    yield return new WaitForSeconds(1f);
+    isInvincible = false;
 }
 
 private void DeathSequence()

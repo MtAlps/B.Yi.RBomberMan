@@ -10,6 +10,7 @@ public class ItemPickup : MonoBehaviour
     BlastRadius,
     SpeedIncrease,
     SideSwap,
+    ExtraHeart,
    }
 
    public ItemType type;
@@ -42,6 +43,10 @@ public class ItemPickup : MonoBehaviour
         case ItemType.SideSwap:
         var playerteleport = player.GetComponent<Teleport_Mechanic>();
         playerteleport.StartCoroutine("Teleport");
+        break;
+
+        case ItemType.ExtraHeart:
+        player.GetComponent<HealthSystem>().health+=1;
         break;
         }
 
