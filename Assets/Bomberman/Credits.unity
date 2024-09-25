@@ -476,8 +476,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.25503078
+  m_Value: 1.0000005
+  m_Size: 0.51698387
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -724,124 +724,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tutorial for Scrolling Credits:
-
-    - Christina Creates Games https://www.youtube.com/watch?v=Sw_tYG8CP-A
-
-
-    Tutorial
-    for Main Menu Scripting:
-
-    - BMo
-
-    https://www.youtube.com/watch?v=-GWjA6dixV4
-
-
-    Audio
-    Manager Scripts:
-
-    - Rehope Games
-
-    https://www.youtube.com/watch?v=N8whM1GjH4w
-
-
-    GameObject
-    Tremble:
-
-    https://stackoverflow.com/a/65242499
-
-
-    Shake Manager Scripts:
-
-    -
-    Max Health Studios
-
-    https://www.youtube.com/watch?v=uW67TGtaBRo
-
-
-    Main
-    Menu Art:
-
-    - Konami Digital Entertainment, Inc.
-
-    https://store.playstation.com/en-us/product/UP0101-CUSA10667_00-MAINGAME00000000
-
-
-    Base
-    Game Programming Tutorial:
-
-    - Zigurous
-
-    https://github.com/zigurous/unity-bomberman-tutorial
-
-
-    Music:
-
-    -
-    guest-san : Stage music
-
-    https://www.youtube.com/watch?v=R397jeAG_u0
-
-    https://www.youtube.com/watch?v=h642UMJ8ZK4
-
-    https://www.youtube.com/watch?v=3JteetCw1_c
-
-    -Aquatext
-    : Stage Select
-
-    https://www.youtube.com/watch?v=9WPJtOczfvk
-
-    -NS3K :
-    Main Menu
-
-    https://www.youtube.com/watch?v=dkhVM9UGTbM
-
-
-
-
-
-    SFX:
-
-    -
-    Library of Ruina
-
-    https://drive.google.com/drive/folders/12ifYsKtsT7SdkjCiJOGaH40aJ-0uJ4X9
-
-
-    SideSwap
-    Powerup teleportation mechanic:
-
-    - Dani Krossing
-
-    https://www.youtube.com/watch?v=xmhm5jGwonc&t=6s
-
-    -
-    Rune Vejen Petersen
-
-    https://stackoverflow.com/questions/25916106/unity3d-startcoroutine-from-another-script#:~:text=Coroutines%20that%20live%20on%20a%20different%20game%20object,%5BSerializeField%5D%20ScriptOne%20scriptOne%3B%20void%20Start%28%29%20%7B%20StartCoroutine%28scriptOne.StartSmth%28%29%29%3B%20%7D
-
-
-    Programming:
-
-    -
-    Remy (Yihong) Jiang
-
-    - Bryan Tran
-
-    - Ricardo Guzman Volpe
-
-
-    Special
-    Thanks to:
-
-    - Josiah Boucher, our TA
-
-    - Professor Walt Yarbrough
-
-    -
-    WPI, the GOAT
-
-'
+  m_text: "Tutorial for Scrolling Credits:\n- Christina Creates Games https://www.youtube.com/watch?v=Sw_tYG8CP-A\n\nTutorial
+    for Main Menu Scripting:\n- BMo\nhttps://www.youtube.com/watch?v=-GWjA6dixV4\n\nAudio
+    Manager Scripts:\n- Rehope Games\nhttps://www.youtube.com/watch?v=N8whM1GjH4w\n\nGameObject
+    Tremble:\nhttps://stackoverflow.com/a/65242499\n\nShake Manager Scripts:\n- Max
+    Health Studios\nhttps://www.youtube.com/watch?v=uW67TGtaBRo\n\nMain Menu Art:\n-
+    Konami Digital Entertainment, Inc.\nhttps://store.playstation.com/en-us/product/UP0101-CUSA10667_00-MAINGAME00000000\n\nBase
+    Game Programming Tutorial:\n- Zigurous\nhttps://github.com/zigurous/unity-bomberman-tutorial\n\nMusic:\nDungeon
+    Music : Tekken 5 DR / Tiamat\r\n-https://youtu.be/FTk1iepJz1o?si=LLjY4d6xzxmpCJe3\r\n\r\nCastle
+    OST : Chaos Code / Eleganza\r\n-https://youtu.be/IhWVSz2c8Ww?si=YAc-U2V1lX08gxH5\r\n\r\nBase
+    Stage : UNI2 Mika Theme\r\n-https://youtu.be/f5zRnChmGUg?si=o3R9ZMsAx0Eof3jz\r\n\r\nLab
+    : UNI2 Merkava Theme\r\n-https://youtu.be/20KE2mNAsn8?si=VILzwwXb20jHIIY1\r\n\r\nMoon
+    : Your going to need a bigger ukulele by Chris Christodoulou\r\n-https://youtu.be/r2JeL1ibBI0?si=bs50FF-8TLg2VSl9\r\n\r\nForest
+    : Tekken 5 DR / Estrada de Estrela \r\n-https://youtu.be/v5anVszm2Iw?si=QKOUQsJvyss0Vslk\r\n\nStage
+    Select : Sonic Mania / Comfort Zone\r\n-https://youtu.be/f4CBQ9nnQSY?si=Db1xTaRlQ0QTwWM8\n\n-NS3K
+    : Main Menu\nhttps://www.youtube.com/watch?v=dkhVM9UGTbM\n\n\n\n\nSFX:\n- Library
+    of Ruina\nhttps://drive.google.com/drive/folders/12ifYsKtsT7SdkjCiJOGaH40aJ-0uJ4X9\n\nSideSwap
+    Powerup teleportation mechanic:\n- Dani Krossing\nhttps://www.youtube.com/watch?v=xmhm5jGwonc&t=6s\n-
+    Rune Vejen Petersen\nhttps://stackoverflow.com/questions/25916106/unity3d-startcoroutine-from-another-script#:~:text=Coroutines%20that%20live%20on%20a%20different%20game%20object,%5BSerializeField%5D%20ScriptOne%20scriptOne%3B%20void%20Start%28%29%20%7B%20StartCoroutine%28scriptOne.StartSmth%28%29%29%3B%20%7D\n\nProgramming:\n-
+    Remy (Yihong) Jiang\n- Bryan Tran\n- Ricardo Guzman Volpe\n\nSpecial Thanks to:\n-
+    Josiah Boucher, our TA\n- Professor Walt Yarbrough\n- WPI, the GOAT\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
