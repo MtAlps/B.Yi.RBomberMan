@@ -476,8 +476,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180161201}
   m_HandleRect: {fileID: 180161200}
   m_Direction: 2
-  m_Value: 1.0000005
-  m_Size: 0.4849508
+  m_Value: 1.0000001
+  m_Size: 0.11966383
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -725,7 +725,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Tutorial for Scrolling Credits:\n- Christina Creates Games https://www.youtube.com/watch?v=Sw_tYG8CP-A\n\nTutorial
-    for Main Menu Scripting:\n- BMo\nhttps://www.youtube.com/watch?v=-GWjA6dixV4\n\nAudio
+    for Main Menu Scripting:\n- BMo\nhttps://www.youtube.com/watch?v=-GWjA6dixV4\n\nTutorial
+    for Wins Tracker:\n-Coco Code\nhttps://www.youtube.com/watch?v=YUcvy9PHeXs&t=370s\n\nAudio
     Manager Scripts:\n- Rehope Games\nhttps://www.youtube.com/watch?v=N8whM1GjH4w\n\nGameObject
     Tremble:\nhttps://stackoverflow.com/a/65242499\n\nShake Manager Scripts:\n- Max
     Health Studios\nhttps://www.youtube.com/watch?v=uW67TGtaBRo\n\nMain Menu Art:\n-

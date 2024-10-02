@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        players = GameObject.FindGameObjectsWithTag("Player");
         player1 = players[0];
         player2 = players[1];
 
@@ -52,11 +51,13 @@ public class GameManager : MonoBehaviour
             if (player1.activeSelf)
             {
                 winScreen.SetActive(true);
+                ScoreManager.instance.P1win();
                 winText.text = "Player 1 wins!";
             }
             else if(player2.activeSelf) 
             {
                 winScreen.SetActive(true);
+                ScoreManager.instance.P2win();
                 winText.text = "Player 2 wins!";
             } 
         }
