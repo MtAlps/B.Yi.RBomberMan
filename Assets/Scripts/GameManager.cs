@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 
 public class GameManager : MonoBehaviour
@@ -9,6 +10,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance { get ; private set; }
     public GameObject[] players;
+    public GameObject winScreen;
+    public TextMeshProUGUI winText;
+    private GameObject player1;
+    private GameObject player2;
 
     private void Awake()
     {
@@ -27,6 +32,10 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
+        player1 = players[0];
+        player2 = players[1];
+
+        winScreen.SetActive(false);
     }
     public void CheckWinState()
     {
@@ -40,12 +49,17 @@ public class GameManager : MonoBehaviour
         }
 
         if (aliveCount <= 1) {
-            Invoke(nameof(NewRound), 3f);
+            if (player1.activeSelf)
+            {
+                winScreen.SetActive(true);
+                winText.text = "Player 1 wins!";
+            }
+            else if(player2.activeSelf) 
+            {
+                winScreen.SetActive(true);
+                winText.text = "Player 2 wins!";
+            } 
         }
     }
 
-    private void NewRound()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
 }
